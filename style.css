@@ -1,0 +1,60 @@
+/*
+	font-family: 'Montserrat', sans-seriff;
+	font-family: 'Roboto', sans-seriff;
+*/
+
+* {
+	/*Default Font*/
+	font-family: 'Roboto', sans-seriff;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-seriff;
+}
+
+img {
+
+	height: 250px;
+	width: 250px;
+}
+
+#landing {
+	height: 80vh;
+	/* flexbox*/
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+#gallery {
+	height: 75vh;
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+	justify-content: center;	
+	color: 	white;
+	border-radius: 	6px;
+}
+
+h2 {
+	color: #007bff;
+	}
+
+.tools {
+	padding: 25px;
+	border: solid #f2f2f2 5px;
+	margin: 15px;
+	height: 200px;
+	width: 75%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
